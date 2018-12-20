@@ -1,8 +1,8 @@
 <template>
   <form @submit.prevent="addBookmark(title, decs, url)">
-    <input v-model="title" placeholder="Bookmark title">
-    <input v-model="decs" placeholder="Bookmark desc">
-    <input v-model="url" placeholder="Bookmark URL">
+    <input v-model="title" placeholder="Название закладки" minlength="5">
+    <input v-model="decs" placeholder="Описание закладки" minlength="10">
+    <input v-model="url" placeholder="Ссылка" minlength="5">
     <button type="submit">Добавить новую закладку</button>
   </form>
 </template>
