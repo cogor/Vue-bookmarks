@@ -33,9 +33,11 @@ export default {
 <style lang="scss">
 form {
   input {
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: 2px solid #35495e;
     padding-left: 10px;
-    font-family: "Montserrat";
+    font-family: "Ubuntu";
     font-size: 16px;
     font-weight: 400;
     margin-left: 5px;
@@ -51,7 +53,9 @@ form {
     }
   }
   button {
-    font-family: "Montserrat";
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Ubuntu";
     font-size: 16px;
     font-weight: 400;
     border-radius: 10px;

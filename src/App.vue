@@ -22,7 +22,7 @@ export default {
 
 <style lang="scss">
 #app {
-  @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700");
+  @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -30,7 +30,7 @@ export default {
   color: #2c3e50;
   margin-top: 25px;
   h1 {
-    font-family: "Montserrat";
+    font-family: "Ubuntu";
     font-weight: 300;
     font-size: 30px;
   }

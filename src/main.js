@@ -6,12 +6,12 @@ import 'firebase/firestore'
 
 Vue.use(VueFire)
 firebase.initializeApp({
-  apiKey: "API_KEY",
-  authDomain: "DOMAIN",
-  databaseURL: "URL",
-  projectId: "ID",
-  storageBucket: "BUCKET",
-  messagingSenderId: "ID"
+  apiKey: "AIzaSyAj0Oa_laTChAEfOcTdO_T0ZJq95LsVJRE",
+  authDomain: "vue-bookmarks-r2d2.firebaseapp.com",
+  databaseURL: "https://vue-bookmarks-r2d2.firebaseio.com",
+  projectId: "vue-bookmarks-r2d2",
+  storageBucket: "vue-bookmarks-r2d2.appspot.com",
+  messagingSenderId: "812613136029"
 })
 export const db = firebase.firestore()
 Vue.config.productionTip = false

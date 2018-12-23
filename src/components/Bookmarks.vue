@@ -32,13 +32,14 @@ export default {
   margin-top: 25px;
 }
 .item {
-  font-family: "Montserrat";
+  font-family: "Ubuntu";
   background: rgb(247, 247, 247);
   width: 50vw;
   margin: auto;
   margin-bottom: 15px;
   border-radius: 10px;
   p {
+    font-family: "Ubuntu";
     margin-bottom: 0;
     font-size: 24px;
     color: #35495e;
